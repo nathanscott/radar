@@ -2,9 +2,11 @@ GEM
   remote: http://rubygems.org/
   specs:
     json_pure (1.7.3)
+    kgio (2.8.1)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    raindrops (0.12.0)
     sinatra (1.3.2)
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
@@ -13,6 +15,10 @@ GEM
       json_pure (~> 1.4)
       sinatra (~> 1.0)
     tilt (1.3.3)
+    unicorn (4.7.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -20,3 +26,4 @@ PLATFORMS
 DEPENDENCIES
   sinatra (= 1.3.2)
   sinatra-jsonp
+  unicorn (= 4.7.0)

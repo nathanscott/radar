@@ -1,0 +1,5 @@
+
+
+Run:
+cp tribes.radar.plist /Library/LaunchDaemons/
+sudo launchctl load /Library/LaunchDaemons/tribes.radar.plist
