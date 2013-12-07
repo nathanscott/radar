@@ -1,5 +1,5 @@
 
 
-Run:
-cp tribes.radar.plist /Library/LaunchDaemons/
+To install as a launch daemon:
+sudo ln -s /path/to/tribes.radar.plist /Library/LaunchDaemons
 sudo launchctl load /Library/LaunchDaemons/tribes.radar.plist
