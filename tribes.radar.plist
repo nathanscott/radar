@@ -8,13 +8,9 @@
     <string>tribes.radar</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/nathan/.rbenv/shims/bundle</string>
-      <string>exec</string>
-      <string>unicorn</string>
+      <string>sh</string>
       <string>-c</string>
-      <string>/Users/nathan/Sites/radar/unicorn.rb</string>
-      <string>-p</string>
-      <string>4567</string>
+      <string>/Users/nathan/Sites/radar/radar.sh</string>
     </array>
     <key>WorkingDirectory</key>
     <string>/Users/nathan/Sites/radar</string>
