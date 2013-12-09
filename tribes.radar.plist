@@ -18,5 +18,7 @@
     <true/>
     <key>EnableTransactions</key>
     <false/>
+    <key>UserName</key>
+    <string>nathan</string>
   </dict>
 </plist>
