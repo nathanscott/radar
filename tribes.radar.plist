@@ -18,5 +18,7 @@
     <true/>
     <key>EnableTransactions</key>
     <false/>
+    <key>StandardErrorPath</key>
+    <string>/Users/nathan/Sites/radar/radar.log</string>
   </dict>
 </plist>
