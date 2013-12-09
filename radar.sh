@@ -1,1 +1,4 @@
-/Users/nathan/.rbenv/shims/bundle exec /Users/nathan/.rbenv/shims/unicorn -c /Users/nathan/Sites/radar/unicorn.rb -p 4567
+#!/usr/local/bin/zsh
+source /Users/nathan/.zshrc
+cd /Users/nathan/Sites/radar
+bundle exec unicorn -c unicorn.rb -p 4567
