@@ -1,1 +1,1 @@
-/Users/nathan/.rbenv/shims/bundle exec unicorn -c /Users/nathan/Sites/radar/unicorn.rb -p 4567
+/Users/nathan/.rbenv/shims/bundle exec /Users/nathan/.rbenv/shims/unicorn -c /Users/nathan/Sites/radar/unicorn.rb -p 4567
